@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width-device-width,initial-scale=1.0">
+    <title>Welcome to LinkdIn Webpage</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar">
+
+        <div class="navbar-left">
+            <a href="index.html" class="logo"><img src="images/logo.png"> </a>
+
+            <div class="search-box">
+                <img src="images/search.png">
+                <input type="text" placeholder="Search">
+            </div>
+        </div>
+
+        <div class="navbar-centre">
+            <ul>
+                <li><a href="#" class="active-link"><img src="images/home.png" alt=""><span>Home</span></a></li>
+                <li><a href="#"><img src="images/network.png" alt=""><span>My Network</span></a></li>
+                <li><a href="#"><img src="images/jobs.png" alt=""><span>Jobs</span></a></li>
+                <li><a href="#"><img src="images/message.png" alt=""><span>Messaging</span></a></li>
+                <li><a href="#"><img src="images/notification.png" alt=""><span>Notifications</span></a></li>
+            </ul>
+        </div>
+
+        <div class="navbar-right">
+            <div class="online">
+                <img src="images/user-1.png" class="nav-profile-img" onclick="toggleMenu()">
+            </div>
+        </div>
+
+        <!-----------Profile dropdown menu--------------------------->
+
+        <div class="profile-menu-wrap" id="profileMenu">
+            <div class="profile-menu">
+                <div class="user-info">
+                    <img src="images/user-1.png">
+                    <div>
+                        <h3>Ajinkya Tikode</h3>
+                        <a href="profile.html">See your profile</a>
+                    </div>
+                </div>
+                <hr>
+                <a href="#" class="profile-menu-link">
+                    <img src="images/feedback.png">
+                    <p>Give Feedback</p>
+                    <span>></span>
+                </a>
+
+                <a href="#" class="profile-menu-link">
+                    <img src="images/setting.png">
+                    <p>Settings & Privacy</p>
+                    <span>></span>
+                </a>
+
+                <a href="#" class="profile-menu-link">
+                    <img src="images/help.png">
+                    <p>Help & Support</p>
+                    <span>></span>
+                </a>
+
+                <a href="#" class="profile-menu-link">
+                    <img src="images/display.png">
+                    <p>Display & Accessibility</p>
+                    <span>></span>
+                </a>
+
+                <a href="#" class="profile-menu-link">
+                    <img src="images/logout.png">
+                    <p>Logout</p>
+                    <span>></span>
+                </a>
+            </div>
+        </div>
+    </nav>
+    <!-----------navbar close------>
+
+    <div class="container">
+
+        <div class="profile-main">
+
+            <div class="profile-container">
+                <img src="images/cover-pic.png" width="100%">
+
+                <div class="profile-container-inner">
+                    <img src="images/user-1.png" class="profile-pic">
+                    <h1>Ajinkya Tikode</h1>
+                    <b>Senior Software Developer at FinECHO</b>
+                    <p>HSR Layout, Bengaluru &middot; <a href="#">Contact Info</a></p>
+
+                    <div class="mutual-connections">
+                        <img src="images/user-2.png">
+                        <span>1 mutual connection: Abhijit Tikode</span>
+                    </div>
+
+                    <div class="profile-btn">
+                        <a href="#" class="primary-btn"><img src="images/connect.png">Connect</a>
+                        <a href="#"><img src="images/chat.png">Message</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="profile-description">
+                <h2>About</h2>
+                <p></p>
+                <a href="#" class="see-more-link">See More...</a>
+            </div>
+
+            <div class="profile-description">
+                <h2>Experience</h2>
+                <div class="profile-desc-row">
+                    <img src="images/finecho.png">
+                    <div>
+                        <h3> Senior Software Developer</h3>
+                        <b>FinEcho &middot; Full-time</b>
+                        <b>March 2022 - Present &middot; 1 Year</b>
+                        <p>Computer programming is the process of performing a particular computation,
+                            usually by designing and building an executable computer program.
+                        </p>
+                        <hr>
+                    </div>
+                </div>
+
+                <div class="profile-desc-row">
+                    <img src="images/microsoft.png">
+                    <div>
+                        <h3>Software Developer</h3>
+                        <b>Microsoft &middot; Full-time</b>
+                        <b>Feb 2021 - Feb 2022 &middot; 1 years</b>
+                        <p>Computer programming is the process of performing a particular computation,
+                            usually by designing and building an executable computer program.
+                        </p>
+                        <hr>
+                    </div>
+                </div>
+
+                <div class="profile-desc-row">
+                    <img src="images/slack.png">
+                    <div>
+                        <h3>Software Developer</h3>
+                        <b>Slack &middot; Full-time</b>
+                        <b>Feb 2019 - Feb 2021 &middot; 2 years</b>
+                        <p>Computer programming is the process of performing a particular computation,
+                            usually by designing and building an executable computer program.
+                        </p>
+                        <hr>
+                    </div>
+                </div>
+
+                <div class="profile-desc-row">
+                    <img src="images/google.png">
+                    <div>
+                        <h3>Trainee Software Developer</h3>
+                        <b>Google &middot; Full-time</b>
+                        <b>Sept 2018 - Feb 2019 &middot; 6 months</b>
+                        <p>Computer programming is the process of performing a particular computation,
+                            usually by designing and building an executable computer program.
+                        </p>
+                    </div>
+                </div>
+                <hr>
+                <a href="#" class="experience-link">Show all 5 experience <img src="images/right-arrow.png"></a>
+            </div>
+
+            <div class="profile-description">
+                <h2>Education</h2>
+                <div class="profile-desc-row">
+                    <img src="images/shivajiuniversity.png">
+                    <div>
+                        <h3>Shivaji University, Kolhapur</h3>
+                        <b>BE Mechanical Engineering</b>
+                        <b>2013-16</b>
+                        <hr>
+                    </div>
+                </div>
+
+                <div class="profile-desc-row">
+                    <img src="images/cbse.png">
+                    <div>
+                        <h3>Sainik School,Satara</h3>
+                        <b>HSC</b>
+                        <b>2011-12</b>
+                        <hr>
+                    </div>
+                </div>
+
+                <div class="profile-desc-row">
+                    <img src="images/cbse.png">
+                    <div>
+                        <h3>Sainik School,Satara</h3>
+                        <b>SSC</b>
+                        <b>2010-11</b>
+                    </div>
+                </div>
+            </div>
+
+            <div class="profile-description">
+                <h2>Skills</h2>
+                <a href="#" class="skills-btn">CAD Tools</a>
+                <a href="#" class="skills-btn">C</a>
+                <a href="#" class="skills-btn">C++</a>
+                <a href="#" class="skills-btn">Core Java</a>
+                <a href="#" class="skills-btn">PLSQL</a>
+                <a href="#" class="skills-btn">HTML5</a>
+                <a href="#" class="skills-btn">CSS</a>
+                <a href="#" class="skills-btn">JavaScript</a>
+                <a href="#" class="skills-btn">Reactjs</a>
+            </div>
+
+            <div class="profile-description">
+                <h2>Languages</h2>
+                <a href="#" class="language-btn">English</a>
+                <a href="#" class="language-btn">Hindi</a>
+                <a href="#" class="language-btn">Marathi</a>
+            </div>
+
+        </div>
+        <!-----------profile-sidebar---------------------->
+        <div class="profile-sidebar">
+
+            <div class="sidebar-ad">
+                <small>Ad &middot; &middot; &middot;</small>
+                <p>Master the 5 principles of web design</p>
+                <div>
+                    <img src="images/user-1.png">
+                    <img src="images/mi-logo.png" alt="">
+                </div>
+                <b>Brand and Demand in Xiaomi</b>
+                <a href="#" class="ad-link">Learn More</a>
+            </div>
+
+            <div class="sidebar-people">
+                <h3>People you may know</h3>
+                <div class="sidebar-people-row">
+                    <img src="images/user-3.png">
+                    <div>
+                        <h2>Poonam Kakade</h2>
+                        <p>Tech Lead at HoonarTek</p>
+                        <a href="#">Connect</a>
+                    </div>
+                </div>
+
+                <div class="sidebar-people-row">
+                    <img src="images/user-2.png">
+                    <div>
+                        <h2>Pravin Kalokhe</h2>
+                        <p>Paython Developer at HSBC</p>
+                        <a href="#">Connect</a>
+                    </div>
+                </div>
+
+                <div class="sidebar-people-row">
+                    <img src="images/user-4.png">
+                    <div>
+                        <h2>Dipali Kalokhe</h2>
+                        <p>Data Analyst at DataMatica</p>
+                        <a href="#">Connect</a>
+                    </div>
+                </div>
+
+                <div class="sidebar-people-row">
+                    <img src="images/user-5.png">
+                    <div>
+                        <h2>Ganesh Kalokhe</h2>
+                        <p>Application Engineer at Techport Solutions Pvt.Ltd</p>
+                        <a href="#">Connect</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="profile-footer">
+        <div class="sidebar-useful-links">
+            <a href="#">About</a>
+            <a href="#">Accessibility</a>
+            <a href="#">Help center</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Advertising</a>
+            <a href="#">Get the App</a>
+            <a href="#">More</a>
+
+            <div class="copyright-msg">
+                <img src="images/logo.png">
+                <p>Linkedup &#169; 2023. All right reserved</p>
+            </div>
+        </div>
+    </div>
+
+    <!----------------Script for toggle the menu-------------->
+    <script>
+        let profileMenu = document.getElementById("profileMenu");
+
+        function toggleMenu() {
+            profileMenu.classList.toggle("open-menu");
+        }
+    </script>
+
+</body>
+
+</html>
